@@ -24,7 +24,7 @@ The following table describes the user inputted variables used in the Ultimate D
 | `USER_TASK` | A description of the specific task the user was performing when the error occurred. | Plain text language |
 | `ERROR` | The error message or exception encountered during the debugging scenario. | Plain text language or code snippet |
 
-The following table describes Claude's output variables. Leave these alone.
+The following table describes Claude's output variables. Leave these alone:
 
 | Variable | Description | Input Format |
 |----------|-------------|--------------|
