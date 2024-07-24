@@ -36,9 +36,11 @@ The following table describes Claude's output variables. Leave these alone:
 
 ## Code Block Format
 
-When attaching project files to the debugging prompt, just rename 'YOUR_FILE_1.py' and so forth with your file name. You must have one for every file. A tip would be to take a screenshot or screenshots of your entire repository folder and tell ChatGPT or another conversation of Claude to :
+When attaching project files to the debugging prompt, just rename 'YOUR_FILE_1.py' and so forth with your file name. You must have one for every file. 
 
-Example of real file input 
+PRO TOP: Take a screenshot or screenshots of your entire repository folder and use the following prompt in ChatGPT or another conversation of Claude to automate the file's XML tag naming:
+
+Example of real file names to be used in master prompt 
 ```
 <attached_project_code> 
 
