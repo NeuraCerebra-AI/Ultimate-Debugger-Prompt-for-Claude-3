@@ -36,21 +36,63 @@ The following table describes Claude's output variables. Leave these alone.
 
 ## Code Block Format
 
-When attaching project files to the debugging prompt, use the following format:
+When attaching project files to the debugging prompt, just rename 'YOUR_FILE_1.py' and so forth with your file name. You must have one for every file. A tip would be to take a screenshot or screenshots of your entire repository folder and tell ChatGPT or another conversation of Claude to :
+
+Example of real file input 
 ```
-<attached_project_code>
-<YOUR_FILE_1.py>
-Python code goes here
-</YOUR_FILE_1.py>
-<YOUR_FILE_2.py>
-# Python code goes here
-</YOUR_FILE_2.py>
-<YOUR_FILE_3.log>
-# Log file content goes here
-</YOUR_FILE_3.log>
-</attached_project_code>
+<attached_project_code> 
+
+ <business_consulting_chatbot.py>
+ {{Attached to convo}} 
+</business_consulting_chatbot.py>
+
+  <business_interviewer.py> 
+{{Attached to convo}} 
+</business_interviewer.py>  
+
+<index.html> 
+{{Attached to convo}}
+</index.html>
+
+<pdf_conversion.py>
+ {{Attached to convo}} 
+</pdf_conversion.py>
+
+<prompts.py>
+ {{Attached to convo}} 
+</prompts.py>
+
+ </attached_project_code>
+
 ```
 Copy
+
+Prompt for quick automated XML tag file naming:
+
+![Screenshot 2024-07-24 at 3 50 14 PM](https://github.com/user-attachments/assets/fb4d30f6-f2d0-4b06-ad6d-59430b894108)
+
+```
+Analyze the repository in the photo and use the following template to make XML brackets for each file. Leave the inside alone. Write in code block.
+"""
+<attached_project_code> 
+  <YOUR_FILE_1.py>
+ {{Attached to convo}} 
+</YOUR_FILE_1.py>
+
+  <YOUR_FILE_2.py> 
+{{Attached to convo}} 
+</YOUR_FILE_2.py>  
+
+<YOUR_FILE_3.log> 
+{{Attached to convo}}
+</YOUR_FILE_3.log>
+
+ </attached_project_code>
+"""
+
+```
+Copy
+
 
 Ensure that the code blocks are properly formatted and enclosed within the `<attached_project_code>` tags. Provide the necessary file extensions and language-specific syntax highlighting for better readability.
 
