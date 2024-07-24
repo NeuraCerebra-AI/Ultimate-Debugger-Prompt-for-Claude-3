@@ -69,7 +69,7 @@ Example of real file input
 ### Prompt for quick automated XML tag file naming:
 
 1. First attach screenshot of repository:
-2. 
+
 ![Screenshot 2024-07-24 at 3 52 39 PM](https://github.com/user-attachments/assets/4b3336d8-61a8-4ed5-b636-f13c072de92e)
 
 
