@@ -37,9 +37,10 @@ The following table describes Claude's output variables. Leave these alone.
 ## Code Block Format
 
 When attaching project files to the debugging prompt, use the following format:
+```
 <attached_project_code>
 <YOUR_FILE_1.py>
-# Python code goes here
+Python code goes here
 </YOUR_FILE_1.py>
 <YOUR_FILE_2.py>
 # Python code goes here
@@ -48,7 +49,9 @@ When attaching project files to the debugging prompt, use the following format:
 # Log file content goes here
 </YOUR_FILE_3.log>
 </attached_project_code>
+```
 Copy
+
 Ensure that the code blocks are properly formatted and enclosed within the `<attached_project_code>` tags. Provide the necessary file extensions and language-specific syntax highlighting for better readability.
 
 ## Reasoning and Analysis
