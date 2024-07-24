@@ -65,9 +65,8 @@ Example of real file input
  </attached_project_code>
 
 ```
-Copy
 
-Prompt for quick automated XML tag file naming:
+### Prompt for quick automated XML tag file naming:
 
 ![Screenshot 2024-07-24 at 3 50 14 PM](https://github.com/user-attachments/assets/fb4d30f6-f2d0-4b06-ad6d-59430b894108)
 
