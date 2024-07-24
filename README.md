@@ -90,7 +90,6 @@ Analyze the repository in the photo and use the following template to make XML b
 """
 
 ```
-Copy
 
 
 Ensure that the code blocks are properly formatted and enclosed within the `<attached_project_code>` tags. Provide the necessary file extensions and language-specific syntax highlighting for better readability.
