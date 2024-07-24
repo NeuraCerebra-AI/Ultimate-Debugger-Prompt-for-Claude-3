@@ -75,7 +75,7 @@ Example of real file names to be used in master prompt
 ![Screenshot 2024-07-24 at 3 52 39 PM](https://github.com/user-attachments/assets/4b3336d8-61a8-4ed5-b636-f13c072de92e)
 
 
-3. Use the following prompt:  
+3. Use the following prompt in ChatGPT or another conversation of Claude for automated naming:  
 ```
 Analyze the repository in the photo and use the following template to make XML brackets for each file. Leave the inside alone. Write in code block.
 """
