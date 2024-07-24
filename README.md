@@ -69,10 +69,11 @@ Example of real file input
 ### Prompt for quick automated XML tag file naming:
 
 1. First attach screenshot of repository:
+2. 
+![Screenshot 2024-07-24 at 3 52 39 PM](https://github.com/user-attachments/assets/4b3336d8-61a8-4ed5-b636-f13c072de92e)
 
-![Screenshot 2024-07-24 at 3 50 14 PM](https://github.com/user-attachments/assets/fb4d30f6-f2d0-4b06-ad6d-59430b894108)
 
-2. Use the following prompt:  
+3. Use the following prompt:  
 ```
 Analyze the repository in the photo and use the following template to make XML brackets for each file. Leave the inside alone. Write in code block.
 """
