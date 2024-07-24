@@ -14,15 +14,20 @@ The Ultimate Debugging Prompt for Claude consists of the following main sections
 
 ## Variable Explanations
 
-The following table describes the variables used in the Ultimate Debugging Prompt for Claude:
+The following table describes the user inputted variables used in the Ultimate Debugging Prompt for Claude:
 
 | Variable | Description | Input Format |
 |----------|-------------|--------------|
 | `ATTACHED_PROJECT_CODE` | The code blocks represent your attached code files.  If files are small enough, you can copy and paste the code inside.  I recomend you export your entire code repository in one attached file using my Code-Repository-to-Text-File tool to circumvent the 5 file upload restriction.  | `<YOUR_FILE_1.py>`, `<YOUR_FILE_2.py>`, `<YOUR_FILE_3.log>` and so on|
-| `APP_USE_CASE` | A brief description of the application's purpose and functionality. | Plain text |
-| `STEP_BY_STEP_REASONING` | Claude's detailed explanation of the debugging process, from initial assessment to root cause identification. | Plain text |
-| `USER_TASK` | A description of the specific task the user was performing when the error occurred. | Plain text |
-| `ERROR` | The error message or exception encountered during the debugging scenario. | Plain text or code snippet |
+| `APP_USE_CASE` | A brief description of the application's purpose and functionality. | Plain text langugage|
+| `STEP_BY_STEP_REASONING` | Claude's detailed explanation of the debugging process, from initial assessment to root cause identification. | Plain text language |
+| `USER_TASK` | A description of the specific task the user was performing when the error occurred. | Plain text language |
+| `ERROR` | The error message or exception encountered during the debugging scenario. | Plain text language or code snippet |
+
+The following table describes Claude's output variables. Leave these alone.
+
+| Variable | Description | Input Format |
+|----------|-------------|--------------|
 | `DEBUG_INSTRUCTIONS` | Step-by-step instructions provided by Claude to resolve the identified issue. | Numbered list or bullet points |
 | `PROBLEMATIC_CODE` | The specific code segment identified as the root cause of the error. | Code snippet |
 | `PREDICTIONS` | Claude's educated guesses for potential causes of the error. | Numbered list or bullet points |
