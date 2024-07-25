@@ -29,13 +29,12 @@ The following table describes Claude's output variables. Leave these alone:
 
 | Variable | Description |
 |----------|-------------|
-
-| `PREDICTIONS` | Claude's educated guesses for potential causes of the error.|
-| `SCRATCHPAD` | A designated area for Claude to document the reasoning process and analysis during the debugging.|
-| `PROBLEMATIC_CODE` | The specific code segment identified as the root cause of the error.|
-| `STEP_BY_STEP_REASONING` | Claude's detailed explanation of the debugging process, from initial assessment to root cause identification.|
-| `EXPLANATION` | Claude's detailed explanation of why the identified code segment is the likely root cause of the error.|
-| `DEBUG_INSTRUCTIONS` | Step-by-step instructions provided by Claude to resolve the identified issue.|
+| `PREDICTIONS` | Claude's educated guesses for potential causes of the error. |
+| `SCRATCHPAD` | A designated area for Claude to document the reasoning process and analysis during the debugging. |
+| `PROBLEMATIC_CODE` | The specific code segment identified as the root cause of the error. |
+| `STEP_BY_STEP_REASONING` | Claude's detailed explanation of the debugging process, from initial assessment to root cause identification. |
+| `EXPLANATION` | Claude's detailed explanation of why the identified code segment is the likely root cause of the error. |
+| `DEBUG_INSTRUCTIONS` | Step-by-step instructions provided by Claude to resolve the identified issue. |
 
 ## Code Block Format
 
