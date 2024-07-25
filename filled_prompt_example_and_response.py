@@ -111,16 +111,16 @@ An error occurred while starting the interview.”
 
 
 
-Begin by examining the error code and user task. Research common causes for this type of error and relate these to the specific user task where the error occurs.  Based on your initial assessment, generate five educated predictions regarding potential causes of the error. These predictions should consider various aspects, such as coding mistakes, dependency issues, or resource constraints.  
+Begin by examining the error code and user task. Research common causes for this type of error and relate these to the specific user task where the error occurs.  Based on your initial assessment, generate five educated predictions regarding potential causes of the error. These predictions should consider various aspects, such as coding mistakes, dependency issues, or resource constraints.   
 
 <predictions> 
 {{PREDICTIONS}}
 </predictions>
 
-Dive into the ‘ATTACHED_PROJECT_CODE’ with your predictions in mind. Methodically review the code segments related to the user task where the ‘ERROR’ was reported. Pay special attention to recent changes or updates that might have introduced the error.  Analyze the code in the context of each prediction. Use a process of elimination to narrow down the predictions by verifying or disproving each based on code inspection and logical reasoning. Document your rationale behind retaining or discarding each prediction in the scratchpad.  
+Dive into the ‘ATTACHED_PROJECT_CODE’ with your predictions in mind. Methodically review the code segments related to the user task where the ‘ERROR’ was reported. Pay special attention to recent changes or updates that might have introduced the error.  Analyze the code in the context of each prediction. Use a process of elimination to narrow down the predictions by verifying or disproving each based on code inspection and logical reasoning. Document your rationale behind retaining or discarding each prediction in the scratchpad.  
 
 <scratchpad>
-Your analysis and rationale for narrowing down the predictions go here. 
+{{SCRATCHPAD}}
 </scratchpad>
 
 Here is the problematic code segment: 
