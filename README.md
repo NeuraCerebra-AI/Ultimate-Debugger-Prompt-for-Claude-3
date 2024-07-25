@@ -20,7 +20,7 @@ The following table describes the user inputted variables used in the Ultimate D
 
 | Variable | Description | Input Format |
 |----------|-------------|--------------|
-| `ATTACHED_PROJECT_CODE` | The code blocks represent your attached code files.  If files are small enough, you can copy and paste the code inside.  I recomend you export your entire code repository in one attached file using my Code-Repository-to-Text-File tool to circumvent the 5 file upload restriction.  | `<YOUR_FILE_1.py>`, `<YOUR_FILE_2.py>`, `<YOUR_FILE_3.log>` and so on|
+| `ATTACHED_PROJECT_CODE` | The code blocks represent your attached code files.  If files are small enough, you can copy and paste the code inside.  I recomend you export your entire code repository in one attached file using my [Code-Repository-to-Text-File tool](https://github.com/PixelPoser/Code-Repository-to-Text-File) to circumvent the 5 file upload restriction.  | `<YOUR_FILE_1.py>`, `<YOUR_FILE_2.py>`, `<YOUR_FILE_3.log>` and so on|
 | `APP_USE_CASE` | A brief description of the application's purpose and functionality. | Plain text langugage|
 | `USER_TASK` | A description of the specific task the user was performing when the error occurred. | Plain text language |
 | `ERROR` | The error message or exception encountered during the debugging scenario. | Plain text language or code snippet |
